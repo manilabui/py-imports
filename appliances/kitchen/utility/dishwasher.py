@@ -1,7 +1,7 @@
-from appliance import Appliance
+from appliances import Appliance
 
-def DishWasher(Appliance):
 
+class DishWasher(Appliance):
     def __init__(self, color):
         super.__init__(color)
 

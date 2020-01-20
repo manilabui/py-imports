@@ -1,8 +1,7 @@
 from appliances import Appliance
 
 
-def Refrigerator(Appliance):
-
+class Refrigerator(Appliance):
     def __init__(self, color):
         super.__init__(color)
 

@@ -1,6 +1,6 @@
 from appliances import Appliance
 
-def CanOpener(Appliance):
+class CanOpener(Appliance):
 
     def __init__(self, color):
         super.__init__(color)
